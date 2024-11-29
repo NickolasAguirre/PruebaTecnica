@@ -1,0 +1,138 @@
+[
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.DocumenType.DocumentTypeController",
+    "Method": "getAllDocumentType",
+    "RelativePath": "DocumentType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.LibeyUser.LibeyUserController",
+    "Method": "GetLibeyUsers",
+    "RelativePath": "LibeyUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.LibeyUser.LibeyUserController",
+    "Method": "Create",
+    "RelativePath": "LibeyUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibeyTechnicalTestDomain.LibeyUserAggregate.Application.DTO.UserUpdateorCreateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.LibeyUser.LibeyUserController",
+    "Method": "FindResponse",
+    "RelativePath": "LibeyUser/{documentNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.LibeyUser.LibeyUserController",
+    "Method": "Update",
+    "RelativePath": "LibeyUser/{documentNumber}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibeyTechnicalTestDomain.LibeyUserAggregate.Application.DTO.UserUpdateorCreateCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "documentNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.LibeyUser.LibeyUserController",
+    "Method": "Delete",
+    "RelativePath": "LibeyUser/{documentNumber}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.Provice.ProvinceController",
+    "Method": "FindProvinces",
+    "RelativePath": "Province",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.Region.RegionController",
+    "Method": "getAllRegion",
+    "RelativePath": "Region",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibeyTechnicalTestAPI.Controllers.Ubigeo.UbigeoController",
+    "Method": "GetAllUgigeo",
+    "RelativePath": "Ubigeo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "provinciaCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "regionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
