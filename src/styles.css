@@ -1,0 +1,68 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+.btn-toolbar {
+  background-color: transparent !important;
+  color: transparent !important;
+  border-color: transparent !important;
+}
+.nav-link.text-toolbar {
+  font-size: 13px;
+  padding: 0.3rem 0.5rem;
+  margin-right: 3px;
+}
+.btn-nav {
+  border: 0;
+  background-color: white;
+  border-radius: 0.625rem;
+}
+.d-flex {
+  display: flex !important;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.tabla-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+th,
+td {
+  padding: 12px 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e3f2fd;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
